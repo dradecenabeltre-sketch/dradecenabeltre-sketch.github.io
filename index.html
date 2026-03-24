@@ -3,7 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Dra. Danilsa Decena | Nutrióloga Clínica</title>
-  <style>
+  .centrado {
+  text-align: center;
+}
+.lista-servicios {
+  list-style: none;
+  padding: 0;
+}
+.lista-servicios li {
+  margin: 8px 0;
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.galeria img {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}  <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -74,31 +95,38 @@
     </div>
   </header>
   <section>
-    <h2>Servicios</h2>
-    <ul>
-      <li>Consulta nutricional personalizada</li>
-      <li>Manejo de obesidad</li>
-      <li>Planes alimentarios</li>
-      <li>Educación nutricional</li>
-    </ul>
-  </section>
+    <section class="centrado">
+  <h2>Servicios</h2>
+  <ul class="lista-servicios">
+    <li>Consulta nutricional personalizada</li>
+    <li>Manejo de obesidad</li>
+    <li>Planes alimentarios</li>
+    <li>Educación nutricional</li>
+  </ul>
   <section>
-    <h2>Agendar consulta</h2>
-    <p>Reserva tu cita directamente por WhatsApp:</p>
+  <section class="centrado">
+  <h2>Agendar consulta</h2>
+  <p>Reserva tu cita directamente por WhatsApp:</p>
+  <a class="boton" href="https://wa.me/18090000000" target="_blank">
+    Agendar por WhatsApp
+  </a>
+  <p>Reserva tu cita directamente por WhatsApp:</p>
     <a class="boton" href="https://wa.me/18090000000" target="_blank">
       Agendar por WhatsApp
     </a>
   </section>
-  <section class="galeria">
-    <h2>Consultorio</h2>
+  <h2>Consultorio</h2>
+  <div class="galeria">
     <img src="consultorio1.jpg">
     <img src="consultorio2.jpg">
-  </section>
-  <section class="galeria">
-    <h2>Alimentación saludable</h2>
+  </div>
+</section>  
+  <h2>Alimentación saludable</h2>
+  <div class="galeria">
     <img src="comida1.jpg">
     <img src="comida2.jpg">
-  </section>
+  </div>
+</section> 
   <footer>
     <p>📍 Santo Domingo | Torre Azul</p>
   </footer>
