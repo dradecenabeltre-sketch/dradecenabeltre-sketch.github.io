@@ -5,16 +5,16 @@
   body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f5f7f6;
+    background-color: #fff5e6; /* crema suave */
     color: #333;
   }
   h1, h2 {
-    color: #2c6e63;
+    color: #d96b00; /* naranja elegante */
   }
   header {
-    background-color: #2c6e63;
+    background: linear-gradient(135deg, #ff8c42, #ffb347); /* degradado naranja */
     color: white;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
   }
   section {
@@ -31,7 +31,11 @@
     margin: 15px auto;
     max-width: 500px;
     border-radius: 15px;
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+  }
+  /* Secciones alternadas para diseño más profesional */
+  section:nth-child(even) {
+    background-color: #fff0db; /* crema más marcada */
   }
   .btn-whatsapp {
     display: inline-block;
@@ -46,7 +50,7 @@
   .btn-whatsapp:hover {
     background-color: #1ebe5d;
   }
-</style><meta charset="UTF-8">
+</style> <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dra. Danilsa Decena | Nutrióloga Clínica</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -151,9 +155,8 @@ footer {
 </style>
 </head>
 <body>
-<header>
-  <h1>Dra. Danilsa Decena</h1>  
-  <p>Nutrióloga Clínica | Obesóloga | Dietista</p>
+ <h1>Dra. Danilsa Decena</h1>
+  <p style="margin-top:5px;">Nutrición Clínica & Manejo de Obesidad</p>
 </header>
 <section class="hero">
   <img src="foto.jpg">
